@@ -1,4 +1,5 @@
-**Link to site : https://uzairfarooq1.github.io/portfolio-react**
+**Link to site : https://uzairfarooq1.github.io/portfolio-react**   
+repo: https://github.com/UzairFarooq1/portfolio-react
 
 
 1. What is NPM?  
