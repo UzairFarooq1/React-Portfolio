@@ -1,3 +1,6 @@
+**Link to site : https://uzairfarooq1.github.io/portfolio-react**
+
+
 1. What is NPM?  
 NPM is the default package manager for Node.js, a JavaScript runtime.  It makes it simple for developers to install and manage third-party tools and libraries that they can utilize for their projects. A command-line interface for different development tasks is also offered by NPM.    
 2. What is SPA?  
