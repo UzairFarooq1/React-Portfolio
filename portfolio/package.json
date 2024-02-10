@@ -1,8 +1,8 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://UzairFarooq1.github.io/portfolio-react",
-  "private": true,
+  "homepage": "https://uzairfarooq1.github.io/portfolio-react",
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -12,6 +12,7 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.21.3",
     "react-scripts": "5.0.1",
+    "react-whatsapp-widget": "^2.2.0",
     "styled": "^1.0.0",
     "styled-components": "^6.1.8",
     "typed.js": "^2.1.0",

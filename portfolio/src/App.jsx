@@ -11,7 +11,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/portfolio-react">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -19,6 +19,7 @@ function App() {
           <Route path="/contact" element={<Contact />} /> 
           <Route path="/footer" element={<Footer />} /> 
           <Route path="/chucknorrisjokes" element={<ChuckNorrisJokes />}/>
+=
         </Routes>
     </Router>
   );

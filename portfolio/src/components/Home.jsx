@@ -8,6 +8,9 @@ import Projects from './Projects';
 import Contact from './Contact';
 import ChuckNorrisJokes from './ChuckNorrisJokes';
 import Footer from './Footer';
+import WhatsAppButton from './WhatsappButton';
+import { WhatsAppWidget } from 'react-whatsapp-widget';
+
 
 
 
@@ -50,6 +53,12 @@ vertical-align: middle;
 font-size: 16px;
 line-height: 1.6;
 `
+
+const WhatsAppButtonWrapper = styled.div`
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+`;
 
 
 
@@ -138,6 +147,10 @@ const Home = () =>{
       <Contact />
       
       <Footer />
+
+      <WhatsAppButtonWrapper>
+        <WhatsAppButton />
+      </WhatsAppButtonWrapper>
 
       </>
 
