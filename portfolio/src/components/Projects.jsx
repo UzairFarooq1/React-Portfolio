@@ -112,18 +112,20 @@ const Projects = () => {
       <h1 style={{textAlign: 'center'}}>My Projects</h1>
       <br />
       <ProjectCards>
-        {/* Project 1 */}
-        <ProjectCard className="animated">
-          <ProjectCardImage src={project1} alt="Project 1" />
+      {/* Project 6 */}
+      <ProjectCard className="animated">
+          <ProjectCardImage src={project6} alt="Project 6" />
           <Content>
-            <ProjectTitle>Space Dodger</ProjectTitle>
-            <ProjectDescription>A Unity 3D Space Dodger game</ProjectDescription>
-            <ProjectLink href="https://github.com/UzairFarooq1/Spacedodger" target="_blank">
+            <ProjectTitle>Django Ecommerce</ProjectTitle>
+            <ProjectDescription>
+              An IT equipment sales E-commerce website integrated with Association Rule mining for bundle recommendations
+            </ProjectDescription>
+            <ProjectLink href="https://github.com/UzairFarooq1/Brainstorm" target="_blank">
               Read More
             </ProjectLink>
           </Content>
         </ProjectCard>
-  {/* Project 2 */}
+
   <ProjectCard className="animated">
           <ProjectCardImage src={project2} alt="Project 2" />
           <Content>
@@ -139,9 +141,20 @@ const Projects = () => {
         <ProjectCard className="animated">
           <ProjectCardImage src={project3} alt="Project 3" />
           <Content>
-            <ProjectTitle>Steganography</ProjectTitle>
-            <ProjectDescription>A Python Steganography system to hide data in texts, images, and audios(.wav)</ProjectDescription>
-            <ProjectLink href="https://github.com/UzairFarooq1/Steganography" target="_blank">
+            <ProjectTitle>Attendance Management System</ProjectTitle>
+            <ProjectDescription>A kotlin and supabase attendance management system for employee to manage their own attendance. Uses employee location to confirm attendance. </ProjectDescription>
+            <ProjectLink href="https://github.com/UzairFarooq1/Employee-Attendance-System-Flutter" target="_blank">
+              Read More
+            </ProjectLink>
+          </Content>
+        </ProjectCard>
+        
+        <ProjectCard className="animated">
+          <ProjectCardImage src={project1} alt="Project 1" />
+          <Content>
+            <ProjectTitle>Space Dodger</ProjectTitle>
+            <ProjectDescription>A Unity 3D Space Dodger game</ProjectDescription>
+            <ProjectLink href="https://github.com/UzairFarooq1/Spacedodger" target="_blank">
               Read More
             </ProjectLink>
           </Content>
@@ -171,19 +184,7 @@ const Projects = () => {
           </Content>
         </ProjectCard>
 
-        {/* Project 6 */}
-        <ProjectCard className="animated">
-          <ProjectCardImage src={project6} alt="Project 6" />
-          <Content>
-            <ProjectTitle>Django Ecommerce</ProjectTitle>
-            <ProjectDescription>
-              An IT equipment sales E-commerce website integrated with Association Rule mining for bundle recommendations
-            </ProjectDescription>
-            <ProjectLink href="https://github.com/UzairFarooq1/Brainstorm" target="_blank">
-              Read More
-            </ProjectLink>
-          </Content>
-        </ProjectCard>
+
       </ProjectCards>
       <LoadMoreButton onClick={() => window.open('https://github.com/UzairFarooq1', '_blank')}>
       Load more
