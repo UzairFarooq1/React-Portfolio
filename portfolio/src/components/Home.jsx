@@ -10,6 +10,8 @@ import ChuckNorrisJokes from './ChuckNorrisJokes';
 import Footer from './Footer';
 import WhatsAppButton from './WhatsappButton';
 import { WhatsAppWidget } from 'react-whatsapp-widget';
+import CV from '../assets/files/CV_Uzair_Farooq.pdf';
+
 
 
 
@@ -60,6 +62,16 @@ const WhatsAppButtonWrapper = styled.div`
   right: 20px;
 `;
 
+const DownloadCVButton = styled.a`
+   display: inline-block;
+   padding: 10px 20px;
+   background-color: #4CAF50;
+   color: white;
+   text-decoration: none;
+   border-radius: 5px;
+   margin-top: 20px;
+   cursor: pointer;
+`;
 
 
 const Home = () =>{
@@ -90,6 +102,33 @@ const Home = () =>{
           }
         };
       }, []); 
+
+      useEffect(() => {
+        var languages = [
+          "web Developer",
+          "Data Analyst",
+          "Mobile app Developer"
+        ];
+    
+        var options = {
+          strings: languages,
+          typeSpeed: 50,
+          backSpeed: 20,
+          loop: true,
+        };
+    
+        var typedOutput = document.getElementById('skills');
+    
+        if (typedOutput) {
+          var typed = new Typed(typedOutput, options);
+        }
+    
+        return () => {
+          if (typedOutput && typed) {
+            typed.destroy();
+          }
+        };
+      }, []);
 
 
       useEffect(() => {
@@ -137,6 +176,9 @@ const Home = () =>{
                   To Expand My Knowledge And Skills In This Dynamic Field. Throughout My Academic Journey, I Have Gained
                   A Solid Foundation In Areas Such As Programming Languages, Database Management And Network Fundamentals</p>
           </Info>
+          <DownloadCVButton href={CV} download="Uzair_Farooq_CV.pdf">
+               Download CV
+            </DownloadCVButton>
       </HomeContainer>
       <ChuckNorrisJokes />
       <StyledHr />
