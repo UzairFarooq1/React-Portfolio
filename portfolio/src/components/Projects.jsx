@@ -4,7 +4,7 @@ import project1 from '../assets/images/project01.jpg';
 import project2 from '../assets/images/project02.jpg';
 import project3 from '../assets/images/project03.png';
 import project4 from '../assets/images/project04.jpg';
-import project5 from '../assets/images/project05.jpg';
+import project5 from '../assets/images/project05.png';
 import project6 from '../assets/images/project06.png';
 
 
@@ -48,9 +48,10 @@ const ProjectCard = styled.div`
     opacity: 1;
   }
   @media only screen and (max-width: 768px) {
-    width: 70%; /* Full width on small screens */
+    width: 90%; /* Full width on small screens */
     margin: 0 auto; /* Center horizontally */
-    max-height: 500px
+    max-height: 550px
+
   }
 `;
 
@@ -60,6 +61,8 @@ const ProjectCardImage = styled.img`
   object-fit: cover; /* Ensure the image covers the entire container */
   border-bottom: 2px solid #000000;
   border-radius: 8px;
+
+
 `;
 
 const Content = styled.div`
