@@ -134,7 +134,7 @@ const Home = () =>{
       useEffect(() => {
         var languages = [
           "English",
-          "Swahili",
+          "Kiswahili",
           "Chinese"
         ];
     
